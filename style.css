@@ -18,12 +18,15 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 10px;
+    transform: scale(0.85);
 }
 
 /* Inner Form Container Css Code */
 .container .banner{
     background-color: rgb(24, 196, 24);
     padding: 10px 10px 25px 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .banner h1{
@@ -46,6 +49,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 40px 20px 40px;
     background-color: gainsboro;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /* Forms Input Css Code */
@@ -91,11 +96,12 @@ input[type="submit"]:hover{
 
 /* Footer Design Css Code */
 footer{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 0px;
 }
 
 /* Form Responsive Css Code */

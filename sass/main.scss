@@ -1,0 +1,114 @@
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+}
+
+/* Webpage Body Css Code */
+body{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:tomato;
+}
+
+
+/* Outer Form Container Css Code */
+.container{
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transform: scale(0.85);
+}
+
+/* Inner Form Container Css Code */
+.banner{
+    background-color: rgb(24, 196, 24);
+    padding: 10px 10px 25px 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    p{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        word-spacing: 2px;
+        color: white;
+        margin-top: -20px;
+        margin-left: 3px;
+    }
+}
+
+.forms{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 40px 20px 40px;
+    background-color: gainsboro;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+}
+
+/* Forms Input Css Code */
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+p{
+    margin-bottom: 2px;
+}
+
+/* Form Submit Button Css Code */
+input[type="submit"]{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 196, 24);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+
+/* Submit Button Active-Status Css Code */
+input[type="submit"]:hover{
+    color: black;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+/* Footer Design Css Code */
+footer{
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+/* Form Responsive Css Code */
+@media screen and (max-width: 818px) {
+    .container{
+        width: auto;
+    }
+}
